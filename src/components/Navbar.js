@@ -5,7 +5,7 @@ import '../styles/Navbar.css';
 export default function Navbar() {
   return (
     <nav>
-      <div className="card">
+      <div className="head card">
       <ul>
       <Link to="/About"> <img className="logo" src={logo} alt="Logo" /> </Link>
         <CustomLink to="/About" className="heading">About</CustomLink>
