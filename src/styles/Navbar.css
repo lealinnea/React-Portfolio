@@ -4,16 +4,26 @@
   }
 
 .heading {
-    background-color: #aa9680;
-    display: inline-block;
-    list-style-type: none;
     min-height: 50px;
     line-height: 3.5;
     font-size: 1.2rem;
     color: white;
     padding: 0 20px;
+    text-decoration: none;
+    float: left;
+    text-align: center;
+    
 }
+ul{
+    list-style-type: none;
 
+}
+li{
+    display: inline-block;
+    
+}
 .site-title {
-
+    font-size: 35px;
+    font-weight: bold;
+    transition: 0.4s;
 }

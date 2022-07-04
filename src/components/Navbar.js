@@ -9,7 +9,7 @@ export default function Navbar() {
        LOGO
       </Link>
       <ul>
-        <CustomLink to="/About" className='heading'>About</CustomLink>
+        <CustomLink to="/About" className="heading">About</CustomLink>
         <CustomLink to="/Portfolio" className="heading">Portfolio</CustomLink>
         <CustomLink to="/Contact" className="heading">Contact</CustomLink>
         <CustomLink to="/Resume" className="heading">Resume</CustomLink>
