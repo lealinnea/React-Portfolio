@@ -1,51 +1,32 @@
-import React from 'react';
-import '../styles/Section.css';
+import React from "react";
+import "../styles/Section.css";
 
 function Section() {
-
   return (
-    <section className="section">
-      <h2>Lorem Ipsum Dolor Sit Amet</h2>
-      <p>
-        Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-        accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab
-        illo inventore veritatis et quasi architecto beatae vitae dicta sunt
-        explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut
-        odit aut fugit, sed quia consequuntur magni dolores eos qui ratione
-        voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum
-        quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam
-        eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat
-        voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam
-        corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur?
-        Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse
-        quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo
-        voluptas nulla pariatur?
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-        commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-        occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-        mollit anim id est laborum.
-      </p>
-      <p>
-        At vero eos et accusamus et iusto odio dignissimos ducimus qui
-        blanditiis praesentium voluptatum deleniti atque corrupti quos dolores
-        et quas molestias excepturi sint occaecati cupiditate non provident,
-        similique sunt in culpa qui officia deserunt mollitia animi, id est
-        laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita
-        distinctio. Nam libero tempore, cum soluta nobis est eligendi optio
-        cumque nihil impedit quo minus id quod maxime placeat facere possimus,
-        omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem
-        quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet
-        ut et voluptates repudiandae sint et molestiae non recusandae. Itaque
-        earum rerum hic tenetur a sapiente delectus, ut aut reiciendis
-        voluptatibus maiores alias consequatur aut perferendis doloribus
-        asperiores repellat.
-      </p>
-    </section>
+    <main>
+      <section className="section">
+        <div class="col">
+          <h1>Hi, I'm Lea Guerrero</h1>
+          <h4>Welcome to my Page. </h4>
+          <p>
+            For as long as I can remember, I’ve had a passion for creativity and
+            design. This led me to attend the Columbus College of Art and
+            Design, and graduate with a degree in Graphic Design. I’m currently
+            employed in a challenging position as a senior graphic designer in a
+            growing and innovative company, where I am responsible for the
+            creation of 2D marketing materials, web page creation and hubspot
+            web maintenance. In addition to corporate experience, I have worked
+            with individuals, small business owners, charitable organizations
+            and political candidates to provide a wide variety of graphics and
+            websites. Web Development has always been a passion of mine. I am
+            currently attending the Northwestern University Coding Bootcamp
+            Program to expand my UI/UX expertise. Click the portfolio link to check
+            out a few if my get hub repo portfolio pieces. Attached to each repo
+            is a readme decribing each project in more detail.
+          </p>
+        </div>
+      </section>
+    </main>
   );
 }
 

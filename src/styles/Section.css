@@ -1,9 +1,11 @@
 .section {
-    background: #f3e5f5;
-    padding: 20px;
+    padding: 5% 10%;
+    background-color: #ffffff;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
   }
   
-  .section h2 {
-    text-align: center;
-  }
+ 
   

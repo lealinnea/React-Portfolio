@@ -1,13 +1,72 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color:#aa9680;
+  background-image: url(../img/backgroundimage.jpg);
+}
+  /* =====Fonts and Styles====*/
+h1 {
+  line-height: 2em;
+}
+h2 {
+  line-height: 2em;
+}
+h3 {
+
+  line-height: 3em;
+}
+h4 {
+  font-family: 'Antic Didone', serif;
+  line-height: 2em;
+}
+h5 {
+
+  line-height: 2em;
+
+}
+h6 {
+
+  font-weight: 100;
+}
+p {
+  font-size: 16px;
+
+  line-height: 1.8em;
 }
 
+
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+main {
+  width: 80%;
+  margin: auto;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+/*====== Link Decoration =====*/
+li a:hover {
+  background-color: #555;
+  color: white;
+}
+a:link {
+  text-decoration: none;
+}
+
+.zoom {
+  transition: 0.2s;
+}
+.zoom:hover {
+  transform: scale(1.05);
 }

@@ -1,13 +1,19 @@
+
+.logo {
+    width: 250px;
+  }
+
+
 .card {
     margin: 20;
-    background: #aa9680;
+    background: #555;
   }
 
 .heading {
     min-height: 50px;
     line-height: 3.5;
     font-size: 1.2rem;
-    color: white;
+    color: #aa9680;
     padding: 0 20px;
     text-decoration: none;
     float: left;

@@ -4,6 +4,7 @@ import '../styles/Section.css';
 function Section() {
 
   return (
+    <main>
     <section className="section">
       <h2>Lorem Ipsum Dolor Sit Amet</h2>
       <p>
@@ -46,6 +47,7 @@ function Section() {
         asperiores repellat.
       </p>
     </section>
+     </main>
   );
 }
 
