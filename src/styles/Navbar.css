@@ -1,0 +1,19 @@
+.card {
+    margin: 20;
+    background: #aa9680;
+  }
+
+.heading {
+    background-color: #aa9680;
+    display: inline-block;
+    list-style-type: none;
+    min-height: 50px;
+    line-height: 3.5;
+    font-size: 1.2rem;
+    color: white;
+    padding: 0 20px;
+}
+
+.site-title {
+
+}

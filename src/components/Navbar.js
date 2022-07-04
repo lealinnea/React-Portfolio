@@ -1,29 +1,53 @@
-import React from 'react';
+import { Link, useMatch, useResolvedPath } from "react-router-dom"
+import '../styles/Navbar.css';
 
-// We declare an object called styles that will contain a few objects for card and heading styles
-// Notice that each key lists CSS styles in camel case
-const styles = {
-  card: {
-    margin: 20,
-    background: '#e8eaf6',
-  },
-  heading: {
-    background: '#9a74db',
-    minHeight: 50,
-    lineHeight: 3.5,
-    fontSize: '1.2rem',
-    color: 'white',
-    padding: '0 20px',
-  },
-};
-
-// In Navbar, we can assign a style from an object by using curly braces
-function Navbar() {
+export default function Navbar() {
   return (
-    <div style={styles.card}>
-      <div style={styles.heading}>Home</div>
+    <div className="card">
+    <nav>
+      <Link to="/" className="site-title">
+       LOGO
+      </Link>
+      <ul>
+        <CustomLink to="/About" className='heading'>About</CustomLink>
+        <CustomLink to="/Portfolio" className="heading">Portfolio</CustomLink>
+        <CustomLink to="/Contact" className="heading">Contact</CustomLink>
+        <CustomLink to="/Resume" className="heading">Resume</CustomLink>
+      </ul>
+    </nav>
     </div>
-  );
+  )
 }
 
-export default Navbar;
+function CustomLink({ to, children, ...props }) {
+  const resolvedPath = useResolvedPath(to)
+  const isActive = useMatch({ path: resolvedPath.pathname, end: true })
+
+  return (
+    <li className={isActive ? "active" : ""}>
+      <Link to={to} {...props}>
+        {children}
+      </Link>
+    </li>
+  )
+}
+
+
+
+
+// import React from 'react';
+// import '../styles/Navbar.css';
+
+
+// function Navbar() {
+//   return (
+//     <div style={styles.card}>
+//       <div style={styles.heading}>About</div>
+//       <div style={styles.heading}>Portfolio</div>
+//       <div style={styles.heading}>Contact</div>
+//       <div style={styles.heading}>Resume</div>
+//     </div>
+//   );
+// }
+
+// export default Navbar;
