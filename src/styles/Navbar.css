@@ -2,14 +2,6 @@
     width: 250px;
   }
 
-img{
-    vertical-align: top;
-}
-.head {
-    margin: 20;
-    background: #555;
-  }
-
 .heading {
     min-height: 50px;
     line-height: 3.5;
@@ -27,7 +19,7 @@ ul{
 }
 li{
     display: inline-block;
-    
+    vertical-align: middle;
 }
 .site-title {
     font-size: 35px;
