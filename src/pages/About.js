@@ -45,7 +45,7 @@ function Section() {
                   <h6 className="h6 text-color-white">5+ Years Experience</h6>
                   </div>
                 </div>
-                <div className="col ">
+                <div className="col">
                   <div className="grey-box">
                   <img className="icons" src={IconThree} alt="Icon 3" />
                   <h4 className="text-color-white" >Video Creation</h4>

@@ -1,0 +1,17 @@
+
+ 
+  
+/* blocks */
+
+.blockWhite {
+    background-color: #ffffff;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+  }
+  
+  .blockWhite section {
+    margin: 8% 20%;
+    text-align: center;
+  }

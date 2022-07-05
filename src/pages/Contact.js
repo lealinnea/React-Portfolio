@@ -8,7 +8,7 @@ function Section() {
     <main>
     <section className="section">
       <h2>Contact Me</h2>
-     
+     {/* form */}
     </section>
     </main>
   );
