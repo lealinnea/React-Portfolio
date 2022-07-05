@@ -69,7 +69,6 @@ function Section() {
         <div className="row">
           <div className="col center padding-bottom-150">
           <img className="" src={Gdesign} alt="Design Skills" />
-            <a href="./designwork.html"><button className="button">View Portfolio</button></a> 
           </div>
           <div className="col">
             <h1> WHAT I'M GOOD AT</h1>
@@ -89,8 +88,6 @@ function Section() {
           </div>
           <div className="center col ">
           <img className="" src={Wdesign} alt="Web Skills" />
-            <a href=""><button className="button">View Portfolio</button>
-           </a>
           </div>
         </div>
       </div>
