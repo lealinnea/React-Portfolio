@@ -1,6 +1,6 @@
 import React from 'react';
 import '../styles/Section.css';
-
+// import Form from "../components/Form"
 
 function Section() {
 
@@ -8,7 +8,8 @@ function Section() {
     <main>
     <section className="section">
       <h2>Contact Me</h2>
-     {/* form */}
+ 
+      {/* <Form /> */}
     </section>
     </main>
   );
