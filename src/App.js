@@ -3,8 +3,9 @@ import About from "./pages/About"
 import Portfolio from "./pages/Portfolio"
 import Contact from "./pages/Contact"
 import Resume from "./pages/Resume"
-import { Route, Routes } from "react-router-dom"
 import 'bootstrap/dist/css/bootstrap.css';
+
+import { Route, Routes } from "react-router-dom"
 
 function App() {
   return (

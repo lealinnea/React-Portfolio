@@ -1,6 +1,6 @@
 import React from "react";
 import "../styles/Section.css";
-import 'bootstrap/dist/css/bootstrap.css';
+
 
 function Section() {
   return (

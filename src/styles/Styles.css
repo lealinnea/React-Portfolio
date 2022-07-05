@@ -8,6 +8,7 @@ body {
   background-color:#aa9680;
   background-image: url(../img/backgroundimage.jpg);
 }
+
   /* =====Fonts and Styles====*/
 h1 {
   line-height: 2em;
@@ -69,4 +70,120 @@ a:link {
 }
 .zoom:hover {
   transform: scale(1.05);
+}
+
+/*=====buttons======*/
+.button {
+  background-color: #e2cebc;
+  color: #595959;
+  font-family: "Montserrat", sans-serif;
+  border-radius: 15px 0px 15px 0px;
+  line-height: 2em;
+  padding: 5px 40px 5px 40px;
+  border-style: none;
+  margin: 40px 0px;
+  font-size: 16px;
+}
+@media all and (max-width: 600px) {
+  button {
+    margin: 1%;
+  }
+}
+.white-button {
+  background-color: #595959;
+  color: #eeeeee;
+  font-family: "Montserrat", sans-serif;
+  border-radius: 15px 0px 15px 0px;
+  line-height: 2em;
+  padding: 5px 40px 5px 40px;
+  border-style: none;
+  margin: 40px 0px;
+  font-size: 16px;
+}
+@media all and (max-width: 600px) {
+  button {
+    margin: 1%;
+  }
+}
+
+/*===== Background Colors ======*/
+.bgc-tan {
+  background-color: #aa9680;
+}
+.bgc-grey {
+  background-color: rgba(85,85,85,0.8);
+}
+.bgc-white {
+  background-color: rgba(255, 255, 255)
+}
+.bgc-white-transparent {
+  background-color: rgba(255, 255, 255, 0.7);
+}
+.bgc-tan-transparent {
+  background-color: rgba(193, 177, 154, 0.7);
+}
+.text-color-white{
+  color: white;
+}
+.text-color-tan{
+  color: #d3ba9e;
+}
+
+/*===Padding========*/
+.padding-tb-150{
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
+@media all and (max-width: 875px) {
+  .padding-tb-150 {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    }
+  }
+.padding-bottom-150{
+  padding-bottom: 150px;
+}
+@media all and (max-width: 875px) {
+  .padding-bottom-150 {
+  padding-bottom:60px;
+    }
+  }
+.padding-top-150{
+  padding-top: 150px;
+}
+@media all and (max-width: 875px) {
+  .padding-bottom-150 {
+  padding-left:20px;
+    }
+  }
+.padding-left-60{
+  padding-left: 60px;
+}
+@media all and (max-width: 875px) {
+.padding-left-60 {
+padding-left: 0px;
+  }
+}
+.padding-tb-60{
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.padding-tb-20{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.padding-tb-40{
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.padding-20{
+  padding: 20px;
+}
+
+.text-align-left{
+  text-align: left;
+  height:150px;
+  overflow-x: hidden; /* Hide horizontal scrollbar */
+  overflow: auto;
+
 }
