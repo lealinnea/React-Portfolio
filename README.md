@@ -6,7 +6,7 @@ Creating an application using react and bootstrap.
 
 ## Link to App
 
-https://lealinnea.github.io/About
+https://lealinnea.github.io/About 
 
 ## Screenshots
 ![Screen Shot 2022-07-05 at 10 32 23 PM](https://user-images.githubusercontent.com/97196262/177462467-0d1fb43c-d5f7-443b-9fc1-0781b3441723.png)
