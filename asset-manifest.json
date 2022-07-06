@@ -1,27 +1,28 @@
 {
   "files": {
-    "main.css": "/static/css/main.530e776a.css",
-    "main.js": "/static/js/main.61d05eb2.js",
-    "static/media/backgroundimage.jpg": "/static/media/backgroundimage.db6ac211f04a7b3841cc.jpg",
-    "static/media/graphic design computer image.png": "/static/media/graphic design computer image.279c2fbb9acc7d4747cb.png",
-    "static/media/Patters and Pantries.png": "/static/media/Patters and Pantries.a4fa5d593c557996e7ab.png",
-    "static/media/CodeQ.png": "/static/media/CodeQ.847597fed12e49fd6267.png",
-    "static/media/Dately.png": "/static/media/Dately.64448edf7d547ba233f1.png",
-    "static/media/webdesign computer image.png": "/static/media/webdesign computer image.5b8e4342461e07803fbb.png",
-    "static/media/E-Commerce.png": "/static/media/E-Commerce.1cf7e9024f3e6aa4c3f8.png",
-    "static/media/Notetaker.png": "/static/media/Notetaker.f00ca9c15d6a7c9258d2.png",
-    "static/media/My Team Dashboard.png": "/static/media/My Team Dashboard.9af0d002ed07669de700.png",
-    "static/media/Work Day Sch.png": "/static/media/Work Day Sch.2fe64983411b661feda7.png",
-    "static/media/Skillset Images.png": "/static/media/Skillset Images.47562b34ca88eef4ed1f.png",
-    "static/media/linkedin.png": "/static/media/linkedin.aac2bd0e899c2f82cb7b.png",
-    "static/media/Web Development.png": "/static/media/Web Development.117cb841e4298eaa1d16.png",
-    "static/media/instagram.png": "/static/media/instagram.af4109608a73e3fb0980.png",
-    "index.html": "/index.html",
-    "main.530e776a.css.map": "/static/css/main.530e776a.css.map",
-    "main.61d05eb2.js.map": "/static/js/main.61d05eb2.js.map"
+    "main.css": "/React-Portfolio/static/css/main.d917019b.css",
+    "main.js": "/React-Portfolio/static/js/main.2731ed9c.js",
+    "static/media/backgroundimage.jpg": "/React-Portfolio/static/media/backgroundimage.db6ac211f04a7b3841cc.jpg",
+    "static/media/graphic design computer image.png": "/React-Portfolio/static/media/graphic design computer image.279c2fbb9acc7d4747cb.png",
+    "static/media/Patters and Pantries.png": "/React-Portfolio/static/media/Patters and Pantries.a4fa5d593c557996e7ab.png",
+    "static/media/CodeQ.png": "/React-Portfolio/static/media/CodeQ.847597fed12e49fd6267.png",
+    "static/media/Dately.png": "/React-Portfolio/static/media/Dately.64448edf7d547ba233f1.png",
+    "static/media/webdesign computer image.png": "/React-Portfolio/static/media/webdesign computer image.5b8e4342461e07803fbb.png",
+    "static/media/E-Commerce.png": "/React-Portfolio/static/media/E-Commerce.1cf7e9024f3e6aa4c3f8.png",
+    "static/media/Notetaker.png": "/React-Portfolio/static/media/Notetaker.f00ca9c15d6a7c9258d2.png",
+    "static/media/My Team Dashboard.png": "/React-Portfolio/static/media/My Team Dashboard.9af0d002ed07669de700.png",
+    "static/media/Work Day Sch.png": "/React-Portfolio/static/media/Work Day Sch.2fe64983411b661feda7.png",
+    "static/media/ResumeLG.pdf": "/React-Portfolio/static/media/ResumeLG.5c88702834c85d6ce05b.pdf",
+    "static/media/Skillset Images.png": "/React-Portfolio/static/media/Skillset Images.47562b34ca88eef4ed1f.png",
+    "static/media/linkedin.png": "/React-Portfolio/static/media/linkedin.aac2bd0e899c2f82cb7b.png",
+    "static/media/Web Development.png": "/React-Portfolio/static/media/Web Development.117cb841e4298eaa1d16.png",
+    "static/media/instagram.png": "/React-Portfolio/static/media/instagram.af4109608a73e3fb0980.png",
+    "index.html": "/React-Portfolio/index.html",
+    "main.d917019b.css.map": "/React-Portfolio/static/css/main.d917019b.css.map",
+    "main.2731ed9c.js.map": "/React-Portfolio/static/js/main.2731ed9c.js.map"
   },
   "entrypoints": [
-    "static/css/main.530e776a.css",
-    "static/js/main.61d05eb2.js"
+    "static/css/main.d917019b.css",
+    "static/js/main.2731ed9c.js"
   ]
 }
